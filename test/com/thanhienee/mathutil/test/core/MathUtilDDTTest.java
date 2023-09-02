@@ -25,7 +25,7 @@ public class MathUtilDDTTest {
     @Parameterized.Parameters //JUnit se ngam chay loop qua tung dong cua mang de lay tung cap data
     public static Object[][] initData(){
         return new Integer[][]{
-          {0, 1},{1, 1},{2, 2},{3, 6},{4, 24},{5, 720}  
+          {0, 1},{1, 1},{2, 2},{3, 6},{4, 24},{5, 120}  
         };
     }
     
