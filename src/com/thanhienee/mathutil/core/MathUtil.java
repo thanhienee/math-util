@@ -23,6 +23,9 @@ public class MathUtil {
     // bai nay quy uoc tinh giai thua trong khoang 0-20
     
     public static long getFactorial(int n){
+        if(n <0 || n > 20)
+            throw new IllegalArgumentException("Invalid argument. n must be between 0 to 20.");
+        
         if(n == 0 || n == 1)
             return 1;
         
